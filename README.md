@@ -4,7 +4,7 @@
 
 ### *Landing Page & Marketing Frontend*
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blueviolet?style=for-the-badge)](https://snapclass-landing-page-egicclpm8-modihem119-3113s-projects.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blueviolet?style=for-the-badge)](https://snapclass-landing-page-ay4u31fke-modihem119-3113s-projects.vercel.app/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Live-brightgreen)]()
@@ -17,7 +17,7 @@
 
 **SnapClass** is an AI-powered attendance management platform that uses **face recognition** and **voice biometrics** to revolutionize classroom attendance tracking. This repository contains the **landing page** — a premium, responsive marketing frontend showcasing the product's features, workflows, and technology stack.
 
-> 🌐 **Landing Page:** [snapclass-landing-page-egicclpm8-modihem119-3113s-projects.vercel.app](https://snapclass-landing-page-egicclpm8-modihem119-3113s-projects.vercel.app/)
+> 🌐 **Landing Page:** [snapclass-landing-page-ay4u31fke-modihem119-3113s-projects.vercel.app](https://snapclass-landing-page-ay4u31fke-modihem119-3113s-projects.vercel.app/)
 >
 > 🔗 **Live App:** [snapclass-mainurl.streamlit.app](https://snapclass-mainurl.streamlit.app/)
 
