@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
 
+@font-face {
+    font-family: 'Chison';
+    src: url('../fonts/chison.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --bg-main: #fcfcfd;
     --primary: #5865F2;
@@ -30,7 +38,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Chison', 'Climate Crisis', sans-serif;
     line-height: 1.1;
     word-wrap: break-word;
 }
@@ -60,7 +68,7 @@ h4 {
 }
 
 .logo-text {
-    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Chison', 'Climate Crisis', sans-serif;
     font-size: 1.6rem;
     color: #ffffff;
     font-weight: 500;
@@ -108,8 +116,14 @@ h4 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 120px 40px;
+    padding: 120px clamp(200px, 20vw, 360px);
     background-color: #f0f4ff;
+    position: relative;
+}
+
+.hero > * {
+    position: relative;
+    z-index: 2;
 }
 
 .badge {
@@ -185,6 +199,7 @@ h4 {
     border-radius: 36px;
     border: 1px solid #e5e7eb;
     overflow: hidden;
+    z-index: 1;
 }
 
 .floating-card img {
@@ -522,6 +537,10 @@ h4 {
 @media (max-width: 1200px) {
     .navbar {
         padding: 12px 40px;
+    }
+
+    .hero {
+        padding: 100px 40px;
     }
 
     .hero h1 {
